@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a Senior Android Developer specializing in Kotlin, Jetpack Compose, and clean reactive architectures.">
+    <title>Android Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">KaleemUllah</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#hero" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact" class="btn-primary-nav">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-info">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Open for Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Building Fluid, <span class="highlight">Native Android</span> Experiences
+                    </h1>
+                    <p class="hero-subtitle">
+                        Hi, I'm a passionate Android Engineer specializing in Kotlin, Jetpack Compose, clean
+                        architectures, and modern reactive reactive pipelines. I turn ideas into high-performance mobile
+                        apps.
+                    </p>
+                    <div class="hero-tags">
+                        <span class="hero-tag"><i class="fa-solid fa-code"></i> Kotlin</span>
+                        <span class="hero-tag"><i class="fa-solid fa-layer-group"></i> Jetpack Compose</span>
+                        <span class="hero-tag"><i class="fa-solid fa-shield-halved"></i> Clean Architecture</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn-primary">Explore Projects</a>
+                        <a href="#contact" class="btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-graphics">
+                    <!-- Dynamic Phone Mockup -->
+                    <div class="phone-mockup-wrapper hero-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-status-bar">
+                                <span class="phone-time" id="phone-time">12:00 PM</span>
+                                <div class="phone-status-icons">
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-signal"></i>
+                                    <i class="fa-solid fa-battery-three-quarters"></i>
+                                </div>
+                            </div>
+                            <div class="phone-screen" id="phone-screen-inner">
+                                <!-- Loaded dynamically via JS -->
+                            </div>
+                            <button class="phone-home-button" id="phone-home-btn" title="Home Button"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Skills Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <p class="section-subtitle">A breakdown of my programming stack, tools, and architectural
+                        philosophy.</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-bio">
+                        <h3>Engineering Custom Mobile Architectures</h3>
+                        <p>
+                            With a strong background in native Android development, I construct reliable and scalable
+                            application frameworks. I advocate for testable code, robust dependency injection
+                            structures, and reactive streaming APIs.
+                        </p>
+                        <p>
+                            My engineering approach integrates defensive coding patterns with reactive UIs, ensuring
+                            smooth screen refresh times, optimized data local caches, and lightweight network calls.
+                        </p>
+                        <div class="bio-stats">
+                            <div class="bio-stat">
+                                <span class="stat-number">4+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="bio-stat">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Apps Delivered</span>
+                            </div>
+                            <div class="bio-stat">
+                                <span class="stat-number">99.9%</span>
+                                <span class="stat-label">Crash-Free Rate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-grid">
+                        <!-- Languages -->
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <i class="fa-solid fa-code-branch"></i>
+                                <h4>Languages</h4>
+                            </div>
+                            <ul class="skill-list">
+                                <li>Kotlin (Expert)</li>
+                                <li>Java (Proficient)</li>
+                                <li>SQL / SQLite</li>
+                                <li>Groovy / Kotlin DSL</li>
+                            </ul>
+                        </div>
+
+                        <!-- UI & UX -->
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <h4>UI Frameworks</h4>
+                            </div>
+                            <ul class="skill-list">
+                                <li>Jetpack Compose</li>
+                                <li>XML Layouts</li>
+                                <li>Material Design 3</li>
+                                <li>MotionLayout / Animations</li>
+                            </ul>
+                        </div>
+
+                        <!-- Jetpack & Libraries -->
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <i class="fa-solid fa-box-archive"></i>
+                                <h4>Architecture & Libs</h4>
+                            </div>
+                            <ul class="skill-list">
+                                <li>MVVM / MVI / Clean Architecture</li>
+                                <li>Hilt & Dagger 2</li>
+                                <li>Room Database</li>
+                                <li>Retrofit & Ktor Client</li>
+                            </ul>
+                        </div>
+
+                        <!-- Async & Concurrency -->
+                        <div class="skill-card">
+                            <div class="skill-card-header">
+                                <i class="fa-solid fa-bolt"></i>
+                                <h4>Concurrency</h4>
+                            </div>
+                            <ul class="skill-list">
+                                <li>Kotlin Coroutines</li>
+                                <li>Asynchronous Flows (StateFlow/SharedFlow)</li>
+                                <li>RxJava</li>
+                                <li>WorkManager Background Jobs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Interact with the Android emulator to preview actual layouts and
+                        architectures.</p>
+                </div>
+
+                <div class="projects-content">
+                    <!-- Projects List -->
+                    <div class="projects-list">
+                        <!-- Project 1 -->
+                        <div class="project-card project-card-trigger" data-project="task-manager">
+                            <div class="project-card-icon">📋</div>
+                            <div class="project-card-details">
+                                <h3 class="project-title">TaskFlow</h3>
+                                <p class="project-summary">Modern developer productivity dashboard built using Jetpack
+                                    Compose, Room, and Coroutines.</p>
+                                <span class="project-action-indicator">Click to run in emulator →</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card project-card-trigger" data-project="weather-app">
+                            <div class="project-card-icon">🌤️</div>
+                            <div class="project-card-details">
+                                <h3 class="project-title">AeroWeather</h3>
+                                <p class="project-summary">Real-time localized weather dashboard using MVI architecture,
+                                    Retrofit, and state caching.</p>
+                                <span class="project-action-indicator">Click to run in emulator →</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card project-card-trigger" data-project="social-app">
+                            <div class="project-card-icon">💬</div>
+                            <div class="project-card-details">
+                                <h3 class="project-title">ConnectUs</h3>
+                                <p class="project-summary">Decentralized client interface demonstrating Paging 3,
+                                    Firestore, and modular Clean Architecture.</p>
+                                <span class="project-action-indicator">Click to run in emulator →</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Showcase Simulator Display -->
+                    <div class="project-display-simulator">
+                        <div class="project-details-panel">
+                            <h3 id="project-detail-title">Project Title</h3>
+                            <h4 id="project-detail-tagline">Project Tagline</h4>
+                            <p id="project-detail-desc">Project details and architecture overview will appear here
+                                dynamically when selected.</p>
+
+                            <div class="tech-stack-container">
+                                <h5>Architecture Components</h5>
+                                <div class="tech-badges" id="project-detail-tech">
+                                    <!-- Dynamic Tech Badges -->
+                                </div>
+                            </div>
+
+                            <div class="project-details-actions">
+                                <a href="#" target="_blank" id="project-detail-github" class="btn-github">
+                                    <i class="fa-brands fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Career Timeline</h2>
+                    <p class="section-subtitle">My professional growth and key achievements in mobile development.</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Android Engineer</h3>
+                            <h4>TechVanguard Solutions</h4>
+                            <p>
+                                Spearheaded migration from legacy XML systems to 100% Jetpack Compose UI patterns,
+                                reducing code sizes by 35%. Optimized Room local queries and implemented a reactive
+                                offline synchronization protocol using WorkManager, saving over 40% network data.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Android App Developer</h3>
+                            <h4>InnovateMobile Co.</h4>
+                            <p>
+                                Managed core app features supporting dynamic location searches and offline weather
+                                routing. Rebuilt networking layers with clean Retrofit interfaces, error-handling
+                                interceptors, and robust flow streams based on MVI. Developed CI/CD GitHub workflows for
+                                automatic Google Play Store deployment.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>Junior Software Engineer</h3>
+                            <h4>PixelCraft Technologies</h4>
+                            <p>
+                                Collaborated on building utility libraries and social sharing feeds inside native
+                                Android apps. Integrated custom recyclerview components, SQLite databases, and social
+                                API integrations. Supported legacy Android code refactoring and bug resolution.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Send a Broadcast</h2>
+                    <p class="section-subtitle">Have an project idea or want to collaborate? Dispatch an Android-style
+                        intent directly to my inbox.</p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-details">
+                        <h3>Connect with Me</h3>
+                        <p>Feel free to reach out through the form, or follow me on professional development platforms.
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <span>Email Address</span>
+                                    <strong>kaleemullah80864@gmail.com</strong>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <span>Location</span>
+                                    <strong>San Francisco, California</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" title="GitHub"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com" target="_blank" title="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://stackoverflow.com" target="_blank" title="StackOverflow"><i
+                                    class="fa-brands fa-stack-overflow"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="form-name" placeholder=" " required autocomplete="off">
+                                <label for="form-name">Sender Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="form-email" placeholder=" " required autocomplete="off">
+                                <label for="form-email">Sender Email</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="form-message" rows="5" placeholder=" " required></textarea>
+                                <label for="form-message">Intent Body (Your Message)</label>
+                            </div>
+
+                            <button type="submit" id="form-submit-btn" class="btn-submit">
+                                Dispatch Intent <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Android Developer Portfolio. Crafted with native vibes using HTML, CSS & JS.</p>
+    </footer>
+
+    <!-- Script Links -->
+    <script src="script.js"></script>
+</body>
+
+</html>
